@@ -40,7 +40,7 @@ def download_audio_from_url(url):
 
 
 
-st.title("YouTube Downloader")
+st.title("Zorschis' supersimple YouTube Downloader")
 
 
 st.info("Kopiere den Link rein der bei Share angegeben wird ")
