@@ -4,6 +4,9 @@ import yt_dlp
 from yt_dlp import YoutubeDL
 
 
+st.set_page_config(page_title='YouTube Downloader')
+
+
 @st.cache   #_data
 def download_video_from_url(url):
     videoinfo = YoutubeDL().extract_info(url=url, download=False)
